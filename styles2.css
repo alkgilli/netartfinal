@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+body{background-color: #2F751D;}
+
+body {text-align:center}
+
+h1{
+	color:#FFFFFF;
+	text-align: center;
+	font-size: 36px
+}
+
+.bees {
+  background-image: url("bees.png");
+  position: absolute;
+  left: 80px;
+  top: 0px;
+  width: 2180px;
+  height: 1080px;
+  z-index: 3;
+}
+
+.flowers {
+  background-image: url("flowers.png");
+  position: absolute;
+  left: -222px;
+  top: -20px;
+  width: 2480px;
+  height: 1180px;
+  z-index: 2;
+}
+
+.pagethree {
+  background-image: url("clickbutton.png");
+  position: absolute;
+  left: 807px;
+  top: 16px;
+  width: 337px;
+  height: 56px;
+  z-index: 4;
+}
+
+
+
+

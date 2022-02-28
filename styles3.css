@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body {padding: 0;
+		margin: 0;}
+
+body {padding-bottom: 100px;
+	background-image: url("Images/page3/utopia.jpg")
+}
+
+.utopiab {
+  background-image: url("utopia.png");
+  position: absolute;
+  left: 249px;
+  top: 328px;
+  width: 407px;
+  height: 78px;
+  z-index: 3;
+}
+
+.dystopia {
+  background-image: url("dystopia.png");
+  position: absolute;
+  left: 1199px;
+  top: 854px;
+  width: 407px;
+  height: 78px;
+  z-index: 4;
+}
+
+.arrow {
+  background-image: url("arrow.png");
+  position: absolute;
+  left: 815px;
+  top: 481px;
+  width: 290px;
+  height: 277px;
+  z-index: 5;
+}
